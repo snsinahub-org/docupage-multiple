@@ -23,12 +23,13 @@ jobs:
       - name: output
         run: |
           set -e
-          mkdir output 
+          rm -rf output
+          mkdir -p output 
           find word-doc -type d | grep -v node_modules > folder.txt
           cat folder.txt
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
           ls -R output
-          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && pandoc -o "output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm  -s "$LS" ;done ;done
+          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && pandoc -o "output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="output/$LINE" -s "$LS" ;done ;done
           cp -r output docusaurus/docs
         continue-on-error: true
       - name: upload artifact
