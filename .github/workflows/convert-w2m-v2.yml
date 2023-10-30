@@ -25,8 +25,7 @@ jobs:
           find word-doc -type d | grep -v node_modules > folder.txt
           cat folder.txt
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE && find $LINE -name \*.docx -exec cp {} output/$LINE \;  ;done
-          tree output
-          rsync -arv output docusaurus/docs"
+          cp -r output docusaurus/docs"
         continue-on-error: true
       - name: upload artifact
         uses: actions/upload-artifact@v3
