@@ -29,7 +29,7 @@ jobs:
           cat folder.txt
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
           ls -R output
-          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && pandoc -o "output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$LS" ;done ;done
+          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && pandoc -o "output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="/static" -s "$LS" ;done ;done
           cp -r output docusaurus/docs
           ls -Rla 
         continue-on-error: true
@@ -38,6 +38,11 @@ jobs:
         with:
           name: docx
           path: output
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: static
+          path: static
   
   create-pr-to-build:
     runs-on: ubuntu-latest
@@ -53,10 +58,15 @@ jobs:
         with:
           name: docx
           path: output
+      - uses: actions/download-artifact@v3
+        with:
+          name: static
+          path: static
       - name: test some commands
         run: |
           ls -l
           cp -r output docusaurus/docs
+          cp -r static docusaurus/docs
           SHA=`git log --pretty=format:'%H' -n 1`
 
           echo $SHA
