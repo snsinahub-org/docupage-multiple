@@ -33,8 +33,11 @@ jobs:
           git config --global user.name ${{ github.actor }}
           
           git checkout -b ${{ github.run_id }} 
+          echo ${{ github.run_id }} > run.txt
           git add .
           git commit -m "Convert docx to markdown"
+
+          
 
           git push -u origin ${{ github.run_id }}
 
