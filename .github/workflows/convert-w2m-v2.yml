@@ -18,6 +18,9 @@ jobs:
         uses: actions/checkout@v3
       - uses: docker://pandoc/latex:2.9
         with:           
+          args: --help
+      - uses: docker://pandoc/latex:2.9
+        with:           
           args: -c " mkdir output && find word-doc -type d | grep -v node_modules > folder.txt && cat folder.txt | while read LINE; do  mkdir -p output/$LINE && cp $LINE/*.docx  output/$LINE && ls output/$LINE > ls.txt && cat ls.txt && while read LS; do pandoc ${0} -o output/$LINE/$LS.md  -t gfm -f docx --wrap=none  -t gfm --extract-media=. -s $LS.docx;done ;done && rsync -arv output docusaurus/docs"
       - name: upload artifact
         uses: actions/upload-artifact@v3
