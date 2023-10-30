@@ -42,13 +42,17 @@ jobs:
     steps:  
       - name: checkout
         uses: actions/checkout@v3
+      - name: make folder
+        run: |
+          mkdir output
       - uses: actions/download-artifact@v3
         with:
           name: docx
+          path: output
       - name: test some commands
         run: |
           ls -l
-          cp -r docx docusaurus/docs
+          cp -r output docusaurus/docs
           SHA=`git log --pretty=format:'%H' -n 1`
 
           echo $SHA
