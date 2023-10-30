@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: docx
-          path: ${{ github.event.inputs.output_file }}
+          path: output
       - name: test some commands
         run: |
           SHA=`git log --pretty=format:'%H' -n 1`
@@ -33,6 +33,7 @@ jobs:
           git config --global user.name ${{ github.actor }}
           
           git checkout -b ${{ github.run_id }} 
+          rsync -arv output docusaurus/docs 
           git add .
           git commit -m "Convert docx to markdown"
 
