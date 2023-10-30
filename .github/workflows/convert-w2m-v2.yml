@@ -24,7 +24,8 @@ jobs:
           mkdir output 
           find word-doc -type d | grep -v node_modules > folder.txt
           cat folder.txt
-          cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE && find $LINE -name \*.docx -exec cp {} output/$LINE \;  ;done
+          cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
+          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do pandoc -o output/$LINE/$LS.md  -t gfm -f docx --wrap=none  -t gfm --extract-media=. -s $LS ;done ;done
           cp -r output docusaurus/docs"
         continue-on-error: true
       - name: upload artifact
