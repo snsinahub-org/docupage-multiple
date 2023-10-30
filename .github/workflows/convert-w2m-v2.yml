@@ -24,7 +24,7 @@ jobs:
           mkdir output 
           find word-doc -type d | grep -v node_modules > folder.txt
           cat folder.txt
-          cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE && cp "$LINE/*.docx"  output/$LINE  ;done 
+          cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE && rsync "$LINE/*.docx" output/$LINE  ;done 
           tree output
           rsync -arv output docusaurus/docs"
         continue-on-error: true
