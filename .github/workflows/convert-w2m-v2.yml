@@ -33,6 +33,15 @@ jobs:
         with:
           name: docx
           path: output
+  
+  create-pr-to-build:
+    runs-on: ubuntu-latest
+    steps:  
+      - name: checkout
+        uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          name: docx
       - name: test some commands
         run: |
           SHA=`git log --pretty=format:'%H' -n 1`
