@@ -2,12 +2,12 @@ name: V2 Convert word to markdown
 
 on: 
   workflow_dispatch:
-    inputs:
-      input_file:
-        required: true
-      output_file:
-        required: true
-        default: "docusaurus/docs/tutorial-basics/git.md"
+    # inputs:
+    #   input_file:
+    #     required: true
+    #   output_file:
+    #     required: true
+    #     default: "docusaurus/docs/tutorial-basics/git.md"
       
 
 jobs:
