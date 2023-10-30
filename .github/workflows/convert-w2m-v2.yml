@@ -12,6 +12,7 @@ on:
 
 jobs:
   convert_via_pandoc:
+    needs: convert_via_pandoc
     runs-on: ubuntu-latest
     container:
       image: docker://pandoc/latex:2.9
