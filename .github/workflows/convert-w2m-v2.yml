@@ -31,7 +31,7 @@ jobs:
           ls -R output
           cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && pandoc -o "output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$LS" ;done ;done
           cp -r output docusaurus/docs
-          ls -R output
+          ls -Rla output
         continue-on-error: true
       - name: upload artifact
         uses: actions/upload-artifact@v3
