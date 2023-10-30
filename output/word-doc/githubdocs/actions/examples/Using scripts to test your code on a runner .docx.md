@@ -22,7 +22,7 @@ This article uses an example workflow to demonstrate some of the main CI feature
 
 The following diagram shows a high level view of the workflow's steps and how they run within the job:
 
-![Diagram of an event triggering a workflow that uses scripts to test code.](static/media/image1.png)
+![Diagram of an event triggering a workflow that uses scripts to test code.](./static/media/image1.png)
 
 [**<span class="underline">Features used in this example</span>**](https://docs.github.com/en/actions/examples/using-scripts-to-test-your-code-on-a-runner#features-used-in-this-example)
 
