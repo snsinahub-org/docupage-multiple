@@ -34,6 +34,7 @@ jobs:
               $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" \
               && cd "output/$LINE" \
               count=`ls -1 *.docx 2>/dev/null | wc -l` \
+              echo "FILE LSSSS -" $LS \
               fn = "" \
               if [ $count != 0 ] then fn="$(basename $LS .docx)" fi \
               echo "FILE NAME -" $fn "Count - " $count \
