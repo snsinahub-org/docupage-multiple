@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+  "id": "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+  "title": "Creating GitHub CLI extensions.docx",
+  "description": "Creating GitHub CLI extensions",
+  "source": "@site/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx.md",
+  "sourceDirName": "output/word-doc/githubdocs/cli",
+  "slug": "/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+  "permalink": "/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using the GitHub CLI on a runner.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx"
+  },
+  "next": {
+    "title": "Getting started with the REST API.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx"
+  }
+}

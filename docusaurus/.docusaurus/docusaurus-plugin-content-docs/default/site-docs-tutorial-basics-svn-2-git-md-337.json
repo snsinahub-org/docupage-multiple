@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial-basics/svn2git",
+  "id": "tutorial-basics/svn2git",
+  "title": "svn2git",
+  "description": "SVN2GIT docker",
+  "source": "@site/docs/tutorial-basics/svn2git.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/svn2git",
+  "permalink": "/docs/tutorial-basics/svn2git",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/svn2git.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git lifecycle",
+    "permalink": "/docs/tutorial-basics/git"
+  },
+  "next": {
+    "title": "temp",
+    "permalink": "/docs/tutorial-basics/temp"
+  }
+}

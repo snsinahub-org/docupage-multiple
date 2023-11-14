@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/git-ligecycle.docx",
+  "id": "output/word-doc/git-ligecycle.docx",
+  "title": "Git lifecycle",
+  "description": "Assume you need to work on a project where the code is in a GitHub Repository. The recommendation is changing code in your workstation and then publish changes to GitHub for review and merge. I recommend a 10 easy steps process to follow to reduce the chance of having bugs in code as well as reduce the chance of git merge conflict. I divide these steps to 2 parts work on local repository - Part 2: work on GitHub UI",
+  "source": "@site/docs/output/word-doc/git-ligecycle.docx.md",
+  "sourceDirName": "output/word-doc",
+  "slug": "/output/word-doc/git-ligecycle.docx",
+  "permalink": "/docs/output/word-doc/git-ligecycle.docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/git-ligecycle.docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "gh-blog-1.docx",
+    "permalink": "/docs/output/word-doc/gh-blog-1.docx"
+  },
+  "next": {
+    "title": "Quickstart for GitHub Actions .docx",
+    "permalink": "/docs/output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx"
+  }
+}

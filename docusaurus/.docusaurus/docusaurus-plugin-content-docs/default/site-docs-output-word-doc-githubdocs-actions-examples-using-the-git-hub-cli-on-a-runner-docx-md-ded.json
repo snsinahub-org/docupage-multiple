@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+  "id": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+  "title": "Using the GitHub CLI on a runner .docx",
+  "description": "Using the GitHub CLI on a runner",
+  "source": "@site/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx.md",
+  "sourceDirName": "output/word-doc/githubdocs/actions/examples",
+  "slug": "/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+  "permalink": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using scripts to test your code on a runner.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx"
+  },
+  "next": {
+    "title": "Using the GitHub CLI on a runner.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx"
+  }
+}

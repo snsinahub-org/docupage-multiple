@@ -19,5 +19,9 @@
   "previous": {
     "title": "Manage Docs Versions",
     "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "gh-blog-1.docx",
+    "permalink": "/docs/output/word-doc/gh-blog-1.docx"
   }
 }

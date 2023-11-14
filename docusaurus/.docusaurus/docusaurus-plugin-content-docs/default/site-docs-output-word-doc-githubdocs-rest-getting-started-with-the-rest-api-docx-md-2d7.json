@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+  "id": "output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+  "title": "Getting started with the REST API.docx",
+  "description": "Getting started with the REST API",
+  "source": "@site/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx.md",
+  "sourceDirName": "output/word-doc/githubdocs/rest",
+  "slug": "/output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+  "permalink": "/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating GitHub CLI extensions.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx"
+  },
+  "next": {
+    "title": "svn2git.docx",
+    "permalink": "/docs/output/word-doc/svn2git.docx"
+  }
+}

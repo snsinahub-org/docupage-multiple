@@ -1,0 +1,6 @@
+word-doc
+word-doc/githubdocs
+word-doc/githubdocs/actions
+word-doc/githubdocs/actions/examples
+word-doc/githubdocs/cli
+word-doc/githubdocs/rest

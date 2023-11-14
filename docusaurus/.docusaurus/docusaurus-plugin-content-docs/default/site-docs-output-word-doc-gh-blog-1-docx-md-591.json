@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/gh-blog-1.docx",
+  "id": "output/word-doc/gh-blog-1.docx",
+  "title": "gh-blog-1.docx",
+  "description": "GitHub Learning Pathways: Learn from the best",
+  "source": "@site/docs/output/word-doc/gh-blog-1.docx.md",
+  "sourceDirName": "output/word-doc",
+  "slug": "/output/word-doc/gh-blog-1.docx",
+  "permalink": "/docs/output/word-doc/gh-blog-1.docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/gh-blog-1.docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Git lifecycle",
+    "permalink": "/docs/output/word-doc/git-ligecycle.docx"
+  }
+}

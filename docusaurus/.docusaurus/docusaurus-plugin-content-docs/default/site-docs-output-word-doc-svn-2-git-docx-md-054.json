@@ -1,0 +1,24 @@
+{
+  "unversionedId": "output/word-doc/svn2git.docx",
+  "id": "output/word-doc/svn2git.docx",
+  "title": "svn2git.docx",
+  "description": "SVN2GIT docker",
+  "source": "@site/docs/output/word-doc/svn2git.docx.md",
+  "sourceDirName": "output/word-doc",
+  "slug": "/output/word-doc/svn2git.docx",
+  "permalink": "/docs/output/word-doc/svn2git.docx",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/output/word-doc/svn2git.docx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting started with the REST API.docx",
+    "permalink": "/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx"
+  },
+  "next": {
+    "title": "temp.docx",
+    "permalink": "/docs/output/word-doc/temp.docx"
+  }
+}

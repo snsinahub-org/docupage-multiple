@@ -56,6 +56,30 @@
             "label": "Congratulations!",
             "href": "/docs/tutorial-basics/congratulations",
             "docId": "tutorial-basics/congratulations"
+          },
+          {
+            "type": "link",
+            "label": "**GitHub Learning Pathways: Learn from the best**",
+            "href": "/docs/tutorial-basics/gh-blog-1",
+            "docId": "tutorial-basics/gh-blog-1"
+          },
+          {
+            "type": "link",
+            "label": "Git lifecycle",
+            "href": "/docs/tutorial-basics/git",
+            "docId": "tutorial-basics/git"
+          },
+          {
+            "type": "link",
+            "label": "svn2git",
+            "href": "/docs/tutorial-basics/svn2git",
+            "docId": "tutorial-basics/svn2git"
+          },
+          {
+            "type": "link",
+            "label": "temp",
+            "href": "/docs/tutorial-basics/temp",
+            "docId": "tutorial-basics/temp"
           }
         ],
         "href": "/docs/category/tutorial---basics"
@@ -80,6 +104,128 @@
           }
         ],
         "href": "/docs/category/tutorial---extras"
+      },
+      {
+        "type": "category",
+        "label": "output",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "word-doc",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "gh-blog-1.docx",
+                "href": "/docs/output/word-doc/gh-blog-1.docx",
+                "docId": "output/word-doc/gh-blog-1.docx"
+              },
+              {
+                "type": "link",
+                "label": "Git lifecycle",
+                "href": "/docs/output/word-doc/git-ligecycle.docx",
+                "docId": "output/word-doc/git-ligecycle.docx"
+              },
+              {
+                "type": "category",
+                "label": "githubdocs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "actions",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Quickstart for GitHub Actions .docx",
+                        "href": "/docs/output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx",
+                        "docId": "output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx"
+                      },
+                      {
+                        "type": "category",
+                        "label": "examples",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "Using scripts to test your code on a runner .docx",
+                            "href": "/docs/output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx",
+                            "docId": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx"
+                          },
+                          {
+                            "type": "link",
+                            "label": "Using scripts to test your code on a runner.docx",
+                            "href": "/docs/output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx",
+                            "docId": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx"
+                          },
+                          {
+                            "type": "link",
+                            "label": "Using the GitHub CLI on a runner .docx",
+                            "href": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+                            "docId": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx"
+                          },
+                          {
+                            "type": "link",
+                            "label": "Using the GitHub CLI on a runner.docx",
+                            "href": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx",
+                            "docId": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "cli",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Creating GitHub CLI extensions.docx",
+                        "href": "/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+                        "docId": "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "rest",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Getting started with the REST API.docx",
+                        "href": "/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+                        "docId": "output/word-doc/githubdocs/rest/Getting started with the REST API.docx"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "svn2git.docx",
+                "href": "/docs/output/word-doc/svn2git.docx",
+                "docId": "output/word-doc/svn2git.docx"
+              },
+              {
+                "type": "link",
+                "label": "temp.docx",
+                "href": "/docs/output/word-doc/temp.docx",
+                "docId": "output/word-doc/temp.docx"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -88,6 +234,72 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/gh-blog-1.docx": {
+      "id": "output/word-doc/gh-blog-1.docx",
+      "title": "gh-blog-1.docx",
+      "description": "GitHub Learning Pathways: Learn from the best",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/git-ligecycle.docx": {
+      "id": "output/word-doc/git-ligecycle.docx",
+      "title": "Git lifecycle",
+      "description": "Assume you need to work on a project where the code is in a GitHub Repository. The recommendation is changing code in your workstation and then publish changes to GitHub for review and merge. I recommend a 10 easy steps process to follow to reduce the chance of having bugs in code as well as reduce the chance of git merge conflict. I divide these steps to 2 parts work on local repository - Part 2: work on GitHub UI",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx": {
+      "id": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx",
+      "title": "Using scripts to test your code on a runner .docx",
+      "description": "Using scripts to test your code on a runner",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx": {
+      "id": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx",
+      "title": "Using scripts to test your code on a runner.docx",
+      "description": "Using scripts to test your code on a runner",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx": {
+      "id": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+      "title": "Using the GitHub CLI on a runner .docx",
+      "description": "Using the GitHub CLI on a runner",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx": {
+      "id": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx",
+      "title": "Using the GitHub CLI on a runner.docx",
+      "description": "Using the GitHub CLI on a runner",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx": {
+      "id": "output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx",
+      "title": "Quickstart for GitHub Actions .docx",
+      "description": "Quickstart for GitHub Actions",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx": {
+      "id": "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+      "title": "Creating GitHub CLI extensions.docx",
+      "description": "Creating GitHub CLI extensions",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/githubdocs/rest/Getting started with the REST API.docx": {
+      "id": "output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+      "title": "Getting started with the REST API.docx",
+      "description": "Getting started with the REST API",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/svn2git.docx": {
+      "id": "output/word-doc/svn2git.docx",
+      "title": "svn2git.docx",
+      "description": "SVN2GIT docker",
+      "sidebar": "tutorialSidebar"
+    },
+    "output/word-doc/temp.docx": {
+      "id": "output/word-doc/temp.docx",
+      "title": "temp.docx",
+      "description": "Recipient Name",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
@@ -120,10 +332,34 @@
       "description": "Docusaurus is a static-site-generator (also called Jamstack).",
       "sidebar": "tutorialSidebar"
     },
+    "tutorial-basics/gh-blog-1": {
+      "id": "tutorial-basics/gh-blog-1",
+      "title": "**GitHub Learning Pathways: Learn from the best**",
+      "description": "At GitHub, we’re not just about offering you a powerful platform to orchestrate your software development strategy. We’re also committed to surfacing community expertise and knowledge, so you and your team can get the most out of GitHub. Today, we are launching GitHub Learning Pathways—prescriptive modules that build foundational knowledge, proficiency, and expertise through GitHub guided tutorials, combined with customer insights and best-practices from engineering leaders from forward looking organizations like Amplifon, Telus, Salesforce, Cariad, Datadog, DVAG, Itau, Stack Overflow, Coyote Logistics, and Hello Fresh.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/git": {
+      "id": "tutorial-basics/git",
+      "title": "Git lifecycle",
+      "description": "Assume you need to work on a project where the code is in a GitHub",
+      "sidebar": "tutorialSidebar"
+    },
     "tutorial-basics/markdown-features": {
       "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
       "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/svn2git": {
+      "id": "tutorial-basics/svn2git",
+      "title": "svn2git",
+      "description": "SVN2GIT docker",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/temp": {
+      "id": "tutorial-basics/temp",
+      "title": "temp",
+      "description": "Recipient Name",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/manage-docs-versions": {

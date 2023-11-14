@@ -1,0 +1,24 @@
+{
+  "unversionedId": "tutorial-basics/gh-blog-1",
+  "id": "tutorial-basics/gh-blog-1",
+  "title": "**GitHub Learning Pathways: Learn from the best**",
+  "description": "At GitHub, we’re not just about offering you a powerful platform to orchestrate your software development strategy. We’re also committed to surfacing community expertise and knowledge, so you and your team can get the most out of GitHub. Today, we are launching GitHub Learning Pathways—prescriptive modules that build foundational knowledge, proficiency, and expertise through GitHub guided tutorials, combined with customer insights and best-practices from engineering leaders from forward looking organizations like Amplifon, Telus, Salesforce, Cariad, Datadog, DVAG, Itau, Stack Overflow, Coyote Logistics, and Hello Fresh.",
+  "source": "@site/docs/tutorial-basics/gh-blog-1.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/gh-blog-1",
+  "permalink": "/docs/tutorial-basics/gh-blog-1",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/gh-blog-1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Git lifecycle",
+    "permalink": "/docs/tutorial-basics/git"
+  }
+}

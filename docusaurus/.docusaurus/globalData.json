@@ -16,6 +16,61 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "output/word-doc/gh-blog-1.docx",
+              "path": "/docs/output/word-doc/gh-blog-1.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/git-ligecycle.docx",
+              "path": "/docs/output/word-doc/git-ligecycle.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx",
+              "path": "/docs/output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner .docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx",
+              "path": "/docs/output/word-doc/githubdocs/actions/examples/Using scripts to test your code on a runner.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+              "path": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner .docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx",
+              "path": "/docs/output/word-doc/githubdocs/actions/examples/Using the GitHub CLI on a runner.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx",
+              "path": "/docs/output/word-doc/githubdocs/actions/Quickstart for GitHub Actions .docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+              "path": "/docs/output/word-doc/githubdocs/cli/Creating GitHub CLI extensions.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+              "path": "/docs/output/word-doc/githubdocs/rest/Getting started with the REST API.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/svn2git.docx",
+              "path": "/docs/output/word-doc/svn2git.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "output/word-doc/temp.docx",
+              "path": "/docs/output/word-doc/temp.docx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -41,8 +96,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-basics/gh-blog-1",
+              "path": "/docs/tutorial-basics/gh-blog-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/git",
+              "path": "/docs/tutorial-basics/git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/markdown-features",
               "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/svn2git",
+              "path": "/docs/tutorial-basics/svn2git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/temp",
+              "path": "/docs/tutorial-basics/temp",
               "sidebar": "tutorialSidebar"
             },
             {
