@@ -73,7 +73,7 @@ The following example shows you how GitHub Actions jobs can be automatically tri
 
 4.  Scroll to the bottom of the page and select **Create a new branch for this commit and start a pull request**. Then, to create a pull request, click **Propose new file**.
 
-> ![Screenshot of the "Commit new file" area of the page.](./static/media/image1.png)
+> ![Screenshot of the "Commit new file" area of the page.](./static//media/image1.png)
 
 Committing the workflow file to a branch in your repository triggers the push event and runs your workflow.
 
@@ -83,23 +83,23 @@ Committing the workflow file to a branch in your repository triggers the push 
 
 2.  Under your repository name, click  **Actions**.
 
-> ![Screenshot of the tabs for the "github/docs" repository. The "Actions" tab is highlighted with an orange outline.](./static/media/image2.png)
+> ![Screenshot of the tabs for the "github/docs" repository. The "Actions" tab is highlighted with an orange outline.](./static//media/image2.png)
 
 3.  In the left sidebar, click the workflow you want to display, in this example "GitHub Actions Demo."
 
-> ![Screenshot of the "Actions" page. The name of the example workflow, "GitHub Actions Demo", is highlighted by a dark orange outline.](./static/media/image3.png)
+> ![Screenshot of the "Actions" page. The name of the example workflow, "GitHub Actions Demo", is highlighted by a dark orange outline.](./static//media/image3.png)
 
 4.  From the list of workflow runs, click the name of the run you want to see, in this example "USERNAME is testing out GitHub Actions."
 
 5.  In the left sidebar of the workflow run page, under **Jobs**, click the **Explore-GitHub-Actions** job.
 
-> ![Screenshot of the "Workflow run" page. In the left sidebar, the "Explore-GitHub-Actions" job is highlighted with a dark orange outline.](./static/media/image4.png)
+> ![Screenshot of the "Workflow run" page. In the left sidebar, the "Explore-GitHub-Actions" job is highlighted with a dark orange outline.](./static//media/image4.png)
 
 6.  The log shows you how each of the steps was processed. Expand any of the steps to view its details.
 
-> ![Screenshot of steps run by the workflow.](./static/media/image5.png)
+> ![Screenshot of steps run by the workflow.](./static//media/image5.png)
 > 
-> For example, you can see the list of files in your repository:![Screenshot of the "List files in the repository" step expanded to show the log output. The output for the step is highlighted with a dark orange highlight.](./static/media/image6.png)
+> For example, you can see the list of files in your repository:![Screenshot of the "List files in the repository" step expanded to show the log output. The output for the step is highlighted with a dark orange highlight.](./static//media/image6.png)
 
 The example workflow you just added is triggered each time code is pushed to the branch, and shows you how GitHub Actions can work with the contents of your repository. For an in-depth tutorial, see "[<span class="underline">Understanding GitHub Actions</span>](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)."
 
