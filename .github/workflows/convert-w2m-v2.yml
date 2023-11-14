@@ -30,7 +30,7 @@ jobs:
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
           ls -R output
           cwd=$(pwd)
-          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "line = $LINE -- $LS --  output/$LS.md" && echo "PWD" && ls -l && pwd && ls -1 $LINE/*.docx 2>/dev/null | wc -l && count=`ls -1 $LINE/*.docx 2>/dev/null | wc -l` && echo "COUNT: " $count && fn="" && if [ $count != 0 ]; then fn=`basename $LS .docx`; fi && echo "FILE: " $fn  && cd "output/$LINE"   &&  pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static/$fn" -s "$cwd/$LS" && cd $cwd ;done ;done
+          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "line = $LINE -- $LS --  output/$LS.md" && echo "PWD" && pwd && count=`ls -1 $LINE/*.docx 2>/dev/null | wc -l` && echo "COUNT: " $count && fn="" && if [ $count != 0 ]; then fn="$(basename $LS .docx)"; fi && echo "FILE: " $fn  && cd "output/$LINE"   &&  pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static/$fn" -s "$cwd/$LS" && cd $cwd ;done ;done
           cp -r output docusaurus/docs
           ls -Rla 
       - name: upload artifact
