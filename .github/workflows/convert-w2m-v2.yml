@@ -30,7 +30,12 @@ jobs:
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
           ls -R output
           cwd=$(pwd)
-          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && cd "output/$LINE" && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$cwd/$LS" && cd $cwd ;done ;done
+          cat folder.txt | while read LINE; do ls  \
+              $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" \
+              && cd "output/$LINE" && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$cwd/$LS" \
+              && cd $cwd 
+              ;done 
+          ;done
           cp -r output docusaurus/docs
           ls -Rla 
       - name: upload artifact
