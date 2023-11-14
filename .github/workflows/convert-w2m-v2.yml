@@ -36,6 +36,7 @@ jobs:
               count=`ls -1 *.docx 2>/dev/null | wc -l` \
               fn = "" \
               if [ $count != 0 ] then fn="$(basename $LS .docx)" fi \
+              echo "FILE NAME -" $fn "Count - " $count \
               && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static/$fn" -s "$cwd/$LS" \
               && cd $cwd \
               ;done \
