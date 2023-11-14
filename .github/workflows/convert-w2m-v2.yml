@@ -33,8 +33,8 @@ jobs:
           cat folder.txt | while read LINE; do ls  \
               $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" \
               && cd "output/$LINE" && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$cwd/$LS" \
-              && cd $cwd 
-              ;done 
+              && cd $cwd \
+              ;done \
           ;done
           cp -r output docusaurus/docs
           ls -Rla 
