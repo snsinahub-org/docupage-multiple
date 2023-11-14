@@ -32,7 +32,9 @@ jobs:
           cwd=$(pwd)
           cat folder.txt | while read LINE; do ls  \
               $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" \
-              && cd "output/$LINE" && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$cwd/$LS" \
+              && cd "output/$LINE" \
+              count=`ls -1 *.docx 2>/dev/null | wc -l` \
+              && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static" -s "$cwd/$LS" \
               && cd $cwd \
               ;done \
           ;done
