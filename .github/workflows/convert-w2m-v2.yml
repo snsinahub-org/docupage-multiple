@@ -30,9 +30,7 @@ jobs:
           cat folder.txt | while read LINE; do echo $LINE && mkdir -p output/$LINE  ;done
           ls -R output
           cwd=$(pwd)
-          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && cd "output/$LINE" && fn="$(basename $L .docx)" && echo "FILE NAME " $fn && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static/$fn" -s "$cwd/$LS" && cd $cwd ;done ;done
-          cp -r output docusaurus/docs
-          ls -Rla 
+          cat folder.txt | while read LINE; do ls  $LINE/*.docx | grep -v access > ls.txt && cat ls.txt | while read LS; do echo "$LS --  output/$LS.md" && cd "output/$LINE" && fn="$(basename $LS.docx)" && echo "FILE NAME " $fn && pandoc -o "$cwd/output/$LS.md"  -t gfm -f docx --wrap=none  -t gfm --extract-media="./static/$fn" -s "$cwd/$LS" && cd $cwd ;done ;done
         continue-on-error: true
       - name: upload artifact
         uses: actions/upload-artifact@v3
